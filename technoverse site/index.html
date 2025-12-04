@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technoverse - Future of Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">TECHNOVERSE</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span>Welcome to the Future</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">TECHNO</span>
+                <span class="title-line gradient-text">VERSE</span>
+            </h1>
+            <p class="hero-subtitle">Pioneering Tomorrow's Technology, Today</p>
+            <p class="hero-description">Transform your vision into reality with cutting-edge AI, Machine Learning, and comprehensive digital solutions</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">
+                    <span>Explore Services</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get Started</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="250">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="9">0</div>
+                    <div class="stat-label">Services Offered</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Expertise</span>
+                <h2 class="section-title">Cutting-Edge <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive technology solutions powered by innovation and excellence</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Website Building</h3>
+                    <p class="service-description">Create stunning, responsive, and high-performance websites that captivate your audience and drive results.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Responsive</span>
+                        <span class="feature-tag">Modern UI</span>
+                        <span class="feature-tag">SEO Ready</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">CRM-LMS Solutions</h3>
+                    <p class="service-description">Powerful Customer Relationship Management and Learning Management Systems tailored to your business needs.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Scalable</span>
+                        <span class="feature-tag">Cloud-Based</span>
+                        <span class="feature-tag">Automated</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">SEO Optimization</h3>
+                    <p class="service-description">Boost your online visibility and rank higher with advanced SEO strategies and data-driven optimization.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Analytics</span>
+                        <span class="feature-tag">Keyword Research</span>
+                        <span class="feature-tag">Ranking</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Job Providing</h3>
+                    <p class="service-description">Connect talent with opportunity through our comprehensive job placement and career development services.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Career Growth</span>
+                        <span class="feature-tag">Placement</span>
+                        <span class="feature-tag">Consulting</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Professional Teaching</h3>
+                    <p class="service-description">Expert-led courses and training programs designed to upskill individuals and teams in cutting-edge technologies.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Expert Trainers</span>
+                        <span class="feature-tag">Live Sessions</span>
+                        <span class="feature-tag">Certification</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-photo-video"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Photo & Video Editing</h3>
+                    <p class="service-description">Professional-grade editing services that transform your visual content into stunning masterpieces.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">4K Quality</span>
+                        <span class="feature-tag">Color Grading</span>
+                        <span class="feature-tag">VFX</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">AI Model Training</h3>
+                    <p class="service-description">Custom AI model development and training for specialized applications and business intelligence.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Deep Learning</span>
+                        <span class="feature-tag">Neural Networks</span>
+                        <span class="feature-tag">Custom Models</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Machine Learning</h3>
+                    <p class="service-description">Advanced ML solutions for predictive analytics, automation, and intelligent decision-making systems.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Predictive</span>
+                        <span class="feature-tag">Automation</span>
+                        <span class="feature-tag">Data Science</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">AI Robotics</h3>
+                    <p class="service-description">Next-generation robotics solutions powered by artificial intelligence for automation and innovation.</p>
+                    <div class="service-features">
+                        <span class="feature-tag">Automation</span>
+                        <span class="feature-tag">Smart Systems</span>
+                        <span class="feature-tag">IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <span class="section-badge">Who We Are</span>
+                    <h2 class="section-title">Building the <span class="gradient-text">Future</span> Together</h2>
+                    <p class="about-description">
+                        At Technoverse, we are pioneers in the digital revolution, dedicated to transforming businesses 
+                        through innovative technology solutions. Our team of expert developers, designers, AI specialists, 
+                        and digital strategists work tirelessly to deliver excellence.
+                    </p>
+                    <p class="about-description">
+                        From cutting-edge AI and machine learning solutions to comprehensive web development and creative 
+                        services, we provide end-to-end technology solutions that drive growth and innovation.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Team of Professionals</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cutting-Edge Technology Stack</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Support & Maintenance</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Agile Development Process</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Partner With Us</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="visual-card">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="tech-icons">
+                                <div class="tech-icon"><i class="fas fa-brain"></i></div>
+                                <div class="tech-icon"><i class="fas fa-robot"></i></div>
+                                <div class="tech-icon"><i class="fas fa-code"></i></div>
+                                <div class="tech-icon"><i class="fas fa-mobile-alt"></i></div>
+                                <div class="tech-icon"><i class="fas fa-cloud"></i></div>
+                                <div class="tech-icon"><i class="fas fa-database"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Showcasing innovation, creativity, and technical excellence</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Next-gen shopping experience with AI recommendations</p>
+                            <div class="portfolio-tags">
+                                <span>Web Development</span>
+                                <span>AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>AI Healthcare System</h3>
+                            <p>Machine learning powered diagnostic platform</p>
+                            <div class="portfolio-tags">
+                                <span>Machine Learning</span>
+                                <span>Healthcare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate CRM Suite</h3>
+                            <p>Complete business management solution</p>
+                            <div class="portfolio-tags">
+                                <span>CRM</span>
+                                <span>Enterprise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>Robotics Automation</h3>
+                            <p>Smart warehouse management with AI robots</p>
+                            <div class="portfolio-tags">
+                                <span>Robotics</span>
+                                <span>Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>EdTech Platform</h3>
+                            <p>Revolutionary learning management system</p>
+                            <div class="portfolio-tags">
+                                <span>LMS</span>
+                                <span>Education</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>Brand Identity Design</h3>
+                            <p>Complete visual identity and content creation</p>
+                            <div class="portfolio-tags">
+                                <span>Design</span>
+                                <span>Branding</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-badge">Get In Touch</span>
+                    <h2 class="section-title">Let's Create <span class="gradient-text">Something Amazing</span></h2>
+                    <p class="contact-description">
+                        Ready to transform your vision into reality? Reach out to us and let's discuss how 
+                        Technoverse can help you achieve your goals.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email Us</h4>
+                                <p>contact@technoverse.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Visit Us</h4>
+                                <p>Innovation Hub, Tech District</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                            <i class="fas fa-user form-icon"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                            <i class="fas fa-envelope form-icon"></i>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-input" required>
+                                <option value="">Select Service</option>
+                                <option value="website">Website Building</option>
+                                <option value="crm">CRM-LMS Solutions</option>
+                                <option value="seo">SEO Optimization</option>
+                                <option value="jobs">Job Providing</option>
+                                <option value="teaching">Professional Teaching</option>
+                                <option value="editing">Photo & Video Editing</option>
+                                <option value="ai">AI Model Training</option>
+                                <option value="ml">Machine Learning</option>
+                                <option value="robotics">AI Robotics</option>
+                            </select>
+                            <i class="fas fa-cog form-icon"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                            <i class="fas fa-comment form-icon"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">TECHNOVERSE</span>
+                    </div>
+                    <p class="footer-description">
+                        Pioneering tomorrow's technology today. Your trusted partner in digital transformation and innovation.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Website Building</a></li>
+                        <li><a href="#services">CRM-LMS</a></li>
+                        <li><a href="#services">AI & ML</a></li>
+                        <li><a href="#services">Robotics</a></li>
+                        <li><a href="#services">SEO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p class="footer-newsletter-text">Subscribe to get latest updates and news</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Technoverse. All rights reserved. Crafted with ⚡ and innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
